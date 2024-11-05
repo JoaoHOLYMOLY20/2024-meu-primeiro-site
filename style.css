@@ -27,3 +27,50 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.cabecalho-img{
+    width:10%;
+    margin:1em;
+    border-radius: 100%;
+}
+
+.cabecalho-link{
+    text-decoration: none;
+    font-size:2em;
+    color: var(--ametista);
+    font-family: var(--fonte-titulo);
+    margin-right: 1em;
+    padding: 1em;
+}
+.principal-capa{
+    display: flex;
+    background-color: var(--ametista);
+    align-items: center;
+    justify-content: space-around;
+}
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.principal-capa__botao{
+    background-color: var(--columbia-blue);
+    border-radius: 5px;;
+    padding:1em;
+    margin-top: 2em;
+    color: var(--celeste);
+    text-decoration: none;
+}
+
+.principal-capa__titulo{
+    font-size: 1,5em;
+    font-family: var(--fonte-titulo);
+}
+.principal-capa__texto{
+    font-size: 2em;
+}
+.principal-capa__img{
+    border-radius:1em;
+}
+
+
+
